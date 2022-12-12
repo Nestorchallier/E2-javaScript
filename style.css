@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  margin-top: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  color: blanchedalmond;
+}
+
+h4 {
+  font-size: 24px;
+  color: rgb(216, 214, 210);
+}
+
+.nombre--pizza {
+  font-size: 25px;
+  font-weight: 400px;
+  color: rgb(2, 2, 2);
+}
+
+.precio--pizza {
+  font-size: 25px;
+  font-weight: 400px;
+  color: rgb(17, 17, 17);
+}
+
+.inputNumber {
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  text-align: center;
+}
+
+.form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  background: rgb(109, 108, 108);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  width: 150px;
+  height: 30px;
+  border-radius: 10px;
+  background: rgb(95, 51, 136);
+  color: aliceblue;
+}
+
+.containerInput.error input {
+  border: 3px solid #dc3545;
+}
+
+.small {
+  color: rgb(247, 50, 50);
+  font-weight: 800;
+  font-size: 1.11rem;
+}
+
+.render--container__card {
+  background: rgb(109, 108, 108);
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.hidden {
+  visibility: inherit;
+}
